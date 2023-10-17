@@ -1,0 +1,16 @@
+{
+  "name": "pixijs_template",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/noenoe/pixijs_template.git",
+  "author": "noenoe <info@ahiru.org>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.17.19",
+    "pixi.js": "^7.3.1"
+  },
+  "scripts": {
+    "dev": " ./node_modules/.bin/esbuild src/index.js --format=esm --sourcemap --outfile=dist/js/index.js --bundle --watch"
+  }
+}
